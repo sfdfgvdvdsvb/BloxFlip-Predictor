@@ -13,7 +13,7 @@ export default function Footer(){
 
         {
           conf.SITE_CREDITS &&
-          <a href="https://ripper.lol" target="_blank">🎨 by ripper.lol</a>
+          <a href="https://t.me/+BuEzoycCZoUzYWRh" target="_blank">🎨 by Skript The Dev</a>
         }
       </div>
 
