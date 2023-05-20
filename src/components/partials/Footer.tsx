@@ -8,7 +8,7 @@ export default function Footer(){
       <div className="links">
         {
           conf.SITE_DISCORD &&
-          <a href={conf.SITE_DISCORD} target="_blank">Discord</a>
+          <a href={conf.SITE_DISCORD} target="_blank">Telegram</a>
         }
 
         {
