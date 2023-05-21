@@ -10371,10 +10371,8 @@ function sm(e) {
     return [l, i]
 }
 const le = {
-    SITE_TITLE: "Fossa.tv - Watch movies and Shows online free in Full HD on Fossa",
-    SITE_TELEEGRAM: "https://t.me/fossatv",
-    SITE_DISCORD: "https://discord.gg/XkwehvjGyA",
-    SITE_STATUS: "https://status.fossa.tv/status/status",
+    SITE_TITLE: "SkriptMovies - Watch movies and Shows online free in Full HD on SkriptMovies",
+    SITE_TELEEGRAM: "https://t.me/SkriptMovies",
     SITE_CREDITS: !0,
     SITE_SNOWFLAKES: 10,
     RIPPER_API: "https://api.ripper.fun"
@@ -10382,30 +10380,21 @@ const le = {
 function cm() {
     return L("footer", {
         children: [v("img", {
-            src: "/assets/logo2.png",
+            src: "/assets/logo.png",
             alt: "Logo"
-        }), L("div", {
-            className: "links",
-            children: [v("a", {
-                href: le.SITE_STATUS,
-                target: "_blank",
-                children: "Status"
+        }), L("div",
             }), v("a", {
                 href: le.SITE_TELEEGRAM,
                 target: "_blank",
                 children: "Telegram"
             }), v("a", {
-                href: le.SITE_DISCORD,
+                href: "https://skriptmovies.online",
                 target: "_blank",
-                children: "Discord"
-            }), v("a", {
-                href: "https://fossa.tv",
-                target: "_blank",
-                children: "❤️ by Ripper"
+                children: "❤️ by Skript"
             })]
         }), v("p", {
             className: "disclaimer",
-            children: "2023 © Fossa.tv | We do not store any media."
+            children: "2023 © SkriptMovies | We do not store any media."
         })]
     })
 }
@@ -11541,7 +11530,7 @@ function ov() {
             children: v("div", {
                 className: "home-alert",
                 children: v("p", {
-                    children: "Ads allow us to keep Fossa online. Support us by sharing Fossa with friends! ❤️"
+                    children: "Ads allow us to keep SkriptMovies online. Support us by sharing SkriptMovies with friends! ❤️"
                 })
             })
         }), v("div", {
