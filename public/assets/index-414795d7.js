@@ -10371,7 +10371,7 @@ function sm(e) {
     return [l, i]
 }
 const le = {
-    SITE_TITLE: "SkriptMovies.online - Watch movies and Shows online free in Full HD on Fossa",
+    SITE_TITLE: "SkriptMovies.online - Watch movies and Shows online free in Full HD on SkriptMovies",
     SITE_TELEEGRAM: "https://t.me/SkriptMovies",
     SITE_CREDITS: !0,
     SITE_SNOWFLAKES: 10,
@@ -11530,7 +11530,7 @@ function ov() {
             children: v("div", {
                 className: "home-alert",
                 children: v("p", {
-                    children: "Ads allow us to keep Fossa online. Support us by sharing Fossa with friends! ❤️"
+                    children: "Ads allow us to keep SkriptMovies online. Support us by sharing SkriptMovies with friends! ❤️"
                 })
             })
         }), v("div", {
