@@ -10394,7 +10394,7 @@ function cm() {
             })]
         }), v("p", {
             className: "disclaimer",
-            children: "2023 © Fossa.tv | We do not store any media."
+            children: "2023 © SkriptMovies.online | We do not store any media."
         })]
     })
 }
