@@ -10372,8 +10372,7 @@ function sm(e) {
 }
 const le = {
     SITE_TITLE: "SkriptMovies.online - Watch movies and Shows online free in Full HD on Fossa",
-    SITE_TELEEGRAM: "https://t.me/fossatv",
-    SITE_STATUS: "https://skriptmoviesonline.matomo.cloud/",
+    SITE_TELEEGRAM: "https://t.me/SkriptMovies",
     SITE_CREDITS: !0,
     SITE_SNOWFLAKES: 10,
     RIPPER_API: "https://api.ripper.fun"
@@ -10384,11 +10383,6 @@ function cm() {
             src: "/assets/logo.png",
             alt: "Logo"
         }), L("div", {
-            className: "links",
-            children: [v("a", {
-                href: le.SITE_STATUS,
-                target: "_blank",
-                children: "Status"
             }), v("a", {
                 href: le.SITE_TELEEGRAM,
                 target: "_blank",
