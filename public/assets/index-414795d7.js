@@ -10373,6 +10373,8 @@ function sm(e) {
 const le = {
     SITE_TITLE: "SkriptMovies - Watch movies and Shows online free in Full HD on SkriptMovies",
     SITE_TELEEGRAM: "https://t.me/SkriptMovies",
+    SITE_DISCORD: "https://discord.gg/XkwehvjGyA",
+    SITE_STATUS: "https://status.fossa.tv/status/status",
     SITE_CREDITS: !0,
     SITE_SNOWFLAKES: 10,
     RIPPER_API: "https://api.ripper.fun"
@@ -10393,7 +10395,13 @@ function cm() {
                 target: "_blank",
                 children: "Telegram"
             }), v("a", {
-
+                href: "https://skriptmovies.online",
+                target: "_blank",
+                children: "❤️ by Skript"
+            })]
+        }), v("p", {
+            className: "disclaimer",
+            children: "2023 © SkriptMovies | We do not store any media."
         })]
     })
 }
