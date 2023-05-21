@@ -10382,19 +10382,18 @@ function cm() {
         children: [v("img", {
             src: "/assets/logo.png",
             alt: "Logo"
-        }), L("div",
+        }), L("div", {
+            className: "links",
+            children: [v("a", {
+                href: le.SITE_STATUS,
+                target: "_blank",
+                children: "Status"
             }), v("a", {
                 href: le.SITE_TELEEGRAM,
                 target: "_blank",
                 children: "Telegram"
             }), v("a", {
-                href: "https://skriptmovies.online",
-                target: "_blank",
-                children: "❤️ by Skript"
-            })]
-        }), v("p", {
-            className: "disclaimer",
-            children: "2023 © SkriptMovies | We do not store any media."
+
         })]
     })
 }
