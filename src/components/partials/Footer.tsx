@@ -8,12 +8,12 @@ export default function Footer(){
       <div className="links">
         {
           conf.SITE_DISCORD &&
-          <a href={conf.SITE_DISCORD} target="_blank">Telegram</a>
+          <a href={conf.SITE_DISCORD} target="_blank"></a>
         }
 
         {
           conf.SITE_CREDITS &&
-          <a href="https://t.me/+BuEzoycCZoUzYWRh" target="_blank">🎨 by Skript The Dev</a>
+          <a href="https://t.me/+BuEzoycCZoUzYWRh" target="_blank">🎨 by Skript</a>
         }
       </div>
 
